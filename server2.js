@@ -12,8 +12,8 @@ app.use(express.static("public"));
 const db = mysql.createConnection({
     host: "localhost",
     user: "root",   // ⚠️ MySQL 사용자명 (필요에 따라 변경)
-    password: "yourpassword", // ⚠️ MySQL 비밀번호 입력
-    database: "usersDB"
+    password: "1027", // ⚠️ MySQL 비밀번호 입력
+    database: "yoodain"
 });
 
 db.connect((err) => {
